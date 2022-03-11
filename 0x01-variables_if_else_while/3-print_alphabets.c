@@ -1,28 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - a simple program that outputs the lowercase alphabet then upper
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success
  */
 int main(void)
 {
-int x, y;
+	char alpha = 'a';
+	int i;
 
-<<<<<<< HEAD
-for (m = 97; m <= 122; m++)
-putchar(m);
-for (n = 65; n <= 90; n++)
-putchar(n);
-=======
-for (x = 97; x<= 122; x++)
-{
-putchar(x);
+	for (i = 0; i < 26; i++, alpha++)
+		putchar(alpha);
+	alpha = 'A';
+	for (i = 0; i < 26; i++, alpha++)
+		putchar(alpha);
+	putchar('\n');
+	return (0);
 }
-for (y = 65; y <= 90; y++)
-{
-putchar(y);
-}
->>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-putchar('\n');
-return (0);
-}
+
