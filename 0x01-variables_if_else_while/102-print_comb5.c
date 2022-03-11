@@ -47,4 +47,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+102-print_comb5.c}
