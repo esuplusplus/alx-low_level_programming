@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  *
@@ -6,22 +8,17 @@
  */
 int main(void)
 {
-int y;
+	char low, e, q;
 
-for (y = 97; y <= 122; y++)
-{
-<<<<<<< HEAD
-       if (m == 101 || m == 113)
-=======
-if (y == 101 || y == 113)
->>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-{
-}
-else
-{
-putchar(y);
-}
-}
-putchar('\n');
-return (0);
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		if (low != e && low != q)
+			putchar(low);
+	}
+		printf("\n");
+
+	return (0);
 }
