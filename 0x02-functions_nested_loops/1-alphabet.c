@@ -1,18 +1,16 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - a function that prints 10 times the alphabet
- *
- * Return: x10 a-z
+ * print_alphabet - prints the english alphabet from a-z.
+ * Return: Nothing.
  */
-int main(void)
+void print_alphabet(void)
+{
+	char c;
 
-	char esu[] ="_putchar";
-
-	int c;
-
-	for(c=0; c<8; c++)
-        {
-		_putchar(esu[c]);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
 	}
 	_putchar('\n');
-	return(0);
+}
+
