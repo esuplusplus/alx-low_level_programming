@@ -2,7 +2,8 @@
 /**
  * main - prints the string "putchar" from a character array.
  * Return: 0 on success.
- */
+*may be
+*/
 int main(void)
 {
 	char c[] = "_putchar";
