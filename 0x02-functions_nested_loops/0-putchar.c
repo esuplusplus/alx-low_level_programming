@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - a function that prints 10 times the alphabet
- *
- * Return: x10 a-z
+ * main - prints the string "_putchar" from a character array.
+ * Return: 0 on success.
  */
 int main(void)
+{
+	char c[] = "_putchar";
+	int i;
 
-	char esu[] ="_putchar";
-
-	int c;
-
-	for(c=0; c<8; c++)
-        {
-		_putchar(esu[c]);
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(c[i]);
 	}
 	_putchar('\n');
-	return(0);
+	return (0);
+}
+
