@@ -1,3 +1,4 @@
+#include "main.H"
 /**
  * add - adds two numbers and returns the result
  * @n: one integer to add
