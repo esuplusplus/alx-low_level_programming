@@ -4,19 +4,15 @@
  *
  * Return: x10 a-z
  */
-void print_alphabet_x10(void)
-{
-	int n, co;
+int main(void)
 
-	co = 0;
+	char esu[] ="_putchar";
 
-	while (co < 10)
-	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			_putchar(n);
-		}
-		co++;
-		_putchar('\n');
+	int c;
+
+	for(c=0; c<8; c++)
+        {
+		_putchar(esu[c]);
 	}
-}
+	_putchar('\n');
+	return(0);
