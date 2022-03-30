@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _puts_recursion - puts, but recursively
@@ -18,4 +18,3 @@ void _puts_recursion(char *s)
 
 	_puts_recursion(s + 1);
 }
-
