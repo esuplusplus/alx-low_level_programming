@@ -15,10 +15,16 @@ This repository contains programs written for the low-level programming.
 * [0x0B. C - 0x0B-malloc_free](./0x0B-malloc_free )
 * [0x0C. C - 0x0C-more_malloc_free ](./0x0C-more_malloc_free )
 * [0x0D. C - 0x0D-preprocessor ](./0x0D-preprocessor )
-* [0x0E. C - 0x0E-structures_typedef ](./0x0E-structures_typedef )
-* [0x0F. C - 0x0F-function_pointers ](./0x0F-function_pointers )
+* [0x0E. C - 0x10-variadic_functions ](./0x10-variadic_functions )
+* [0x0F. C - 0x12-singly_linked_lists](./0x12-singly_linked_lists )
+* [0x0F. C - 0x13-more_singly_linked_lists ](./0x13-more_singly_linked_lists )
+* [0x0F. C - 0x14-bit_manipulation ](./0x14-bit_manipulation )
+* [0x0F. C - 0x15-file_io](./0x15-file_io )
+* [0x0F. C - 0x17-doubly_linked_lists ](./0x17-doubly_linked_lists )
+* [0x0F. C - 0x18-dynamic_libraries ](./0x18-dynamic_libraries )
 
-## Author :Ethiopian Programmer (IC):
+## Author :Esu PlusPlus
 
-**EsuPlusPlus(IC)**__ [esuplusplus](https://github.com/esuplusplus)
+**EsuPlusPlus**__ [esuplusplus](https://github.com/esuplusplus)
+
 
