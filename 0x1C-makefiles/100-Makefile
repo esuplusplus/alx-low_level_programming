@@ -1,7 +1,7 @@
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c best.c
 OBJ = $(SRC:%.c=%.o)
-NAME = holberton
+NAME = best
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
 .PHONY: clean oclean fclean re
