@@ -1,7 +1,7 @@
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c best.c
 OBJ = $(SRC:%.c=%.o)
-NAME = holberton
+NAME = best
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
